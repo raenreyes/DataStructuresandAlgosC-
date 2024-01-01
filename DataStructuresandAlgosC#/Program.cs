@@ -6,6 +6,7 @@ namespace DataStructuresandAlgosC_
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Raen Reyes");
             //readind data from the txt file that is passed and turning it into an array
             var numFromFile = In.ReadInts("2Kints.txt").ToArray();
             var stopWatch = new Stopwatch();
